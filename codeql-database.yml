@@ -1,0 +1,10 @@
+---
+sourceLocationPrefix: /home/disna/ctf-files/rwctf2024/protected/Protected-by-Java-SE/fakedb/protected
+baselineLinesOfCode: 19
+unicodeNewlines: false
+columnKind: utf16
+primaryLanguage: java
+creationMetadata:
+  cliVersion: 2.16.1
+  creationTime: 2024-01-28T10:46:13.879357393Z
+finalised: true

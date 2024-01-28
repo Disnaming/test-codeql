@@ -1,0 +1,22 @@
+[2024-01-28 18:46:26] This is codeql database trace-command --working-dir=. ../protected_db mvn -- compile
+[2024-01-28 18:46:26] Log file was started late.
+[2024-01-28 18:46:26] [PROGRESS] database trace-command> Running command in /home/disna/ctf-files/rwctf2024/protected/Protected-by-Java-SE/fakedb/protected: [mvn, compile]
+[2024-01-28 18:46:27] [build-stdout] [[1;34mINFO[m] Scanning for projects...
+[2024-01-28 18:46:27] [build-stdout] [[1;34mINFO[m] 
+[2024-01-28 18:46:27] [build-stdout] [[1;34mINFO[m] [1m------------------------< [0;36mcom.disna:protected[0;1m >-------------------------[m
+[2024-01-28 18:46:27] [build-stdout] [[1;34mINFO[m] [1mBuilding protected 1.0-SNAPSHOT[m
+[2024-01-28 18:46:27] [build-stdout] [[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[2024-01-28 18:46:27] [build-stdout] [[1;34mINFO[m] 
+[2024-01-28 18:46:27] [build-stdout] [[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.0.2:resources[m [1m(default-resources)[m @ [36mprotected[0;1m ---[m
+[2024-01-28 18:46:27] [build-stdout] [[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[2024-01-28 18:46:27] [build-stdout] [[1;34mINFO[m] skip non existing resourceDirectory /home/disna/ctf-files/rwctf2024/protected/Protected-by-Java-SE/fakedb/protected/src/main/resources
+[2024-01-28 18:46:27] [build-stdout] [[1;34mINFO[m] 
+[2024-01-28 18:46:27] [build-stdout] [[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.0:compile[m [1m(default-compile)[m @ [36mprotected[0;1m ---[m
+[2024-01-28 18:46:27] [build-stdout] [[1;34mINFO[m] Nothing to compile - all classes are up to date
+[2024-01-28 18:46:27] [build-stdout] [[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[2024-01-28 18:46:27] [build-stdout] [[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[2024-01-28 18:46:27] [build-stdout] [[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[2024-01-28 18:46:27] [build-stdout] [[1;34mINFO[m] Total time:  0.377 s
+[2024-01-28 18:46:27] [build-stdout] [[1;34mINFO[m] Finished at: 2024-01-28T18:46:27+08:00
+[2024-01-28 18:46:27] [build-stdout] [[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[2024-01-28 18:46:27] Terminating normally.

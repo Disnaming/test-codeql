@@ -1,0 +1,106 @@
+[2024-01-28 18:46:40] This is codeql database finalize ../protected_db/
+[2024-01-28 18:46:40] Log file was started late.
+[2024-01-28 18:46:40] Using pre-finalize script /usr/local/codeql/java/tools/pre-finalize.sh.
+[2024-01-28 18:46:40] [PROGRESS] database finalize> Running pre-finalize script /usr/local/codeql/java/tools/pre-finalize.sh in /home/disna/ctf-files/rwctf2024/protected/Protected-by-Java-SE/fakedb/protected.
+[2024-01-28 18:46:40] Running plumbing command: codeql database trace-command --working-dir=/home/disna/ctf-files/rwctf2024/protected/Protected-by-Java-SE/fakedb/protected --no-tracing -- /home/disna/ctf-files/rwctf2024/protected/Protected-by-Java-SE/fakedb/protected_db /usr/local/codeql/java/tools/pre-finalize.sh
+[2024-01-28 18:46:40] [PROGRESS] database trace-command> Running command in /home/disna/ctf-files/rwctf2024/protected/Protected-by-Java-SE/fakedb/protected: [/usr/local/codeql/java/tools/pre-finalize.sh]
+[2024-01-28 18:46:41] [build-stderr] Scanning for files in /home/disna/ctf-files/rwctf2024/protected/Protected-by-Java-SE/fakedb/protected...
+[2024-01-28 18:46:41] [build-stderr] /home/disna/ctf-files/rwctf2024/protected/Protected-by-Java-SE/fakedb/protected_db: Indexing files in in /home/disna/ctf-files/rwctf2024/protected/Protected-by-Java-SE/fakedb/protected...
+[2024-01-28 18:46:41] [build-stderr] Running command in /home/disna/ctf-files/rwctf2024/protected/Protected-by-Java-SE/fakedb/protected: [/usr/local/codeql/xml/tools/index-files.sh, /home/disna/ctf-files/rwctf2024/protected/Protected-by-Java-SE/fakedb/protected_db/working/files-to-index7807115362547944385.list]
+[2024-01-28 18:46:42] [build-stderr] Scanning for files in /home/disna/ctf-files/rwctf2024/protected/Protected-by-Java-SE/fakedb/protected...
+[2024-01-28 18:46:42] [build-stderr] /home/disna/ctf-files/rwctf2024/protected/Protected-by-Java-SE/fakedb/protected_db: Indexing files in in /home/disna/ctf-files/rwctf2024/protected/Protected-by-Java-SE/fakedb/protected...
+[2024-01-28 18:46:42] [build-stderr] Running command in /home/disna/ctf-files/rwctf2024/protected/Protected-by-Java-SE/fakedb/protected: [/usr/local/codeql/properties/tools/index-files.sh, /home/disna/ctf-files/rwctf2024/protected/Protected-by-Java-SE/fakedb/protected_db/working/files-to-index9707470743922111280.list]
+[2024-01-28 18:46:42] Plumbing command codeql database trace-command completed.
+[2024-01-28 18:46:42] [PROGRESS] database finalize> Running TRAP import for CodeQL database at /home/disna/ctf-files/rwctf2024/protected/Protected-by-Java-SE/fakedb/protected_db...
+[2024-01-28 18:46:42] Running plumbing command: codeql dataset import --dbscheme=/usr/local/codeql/java/semmlecode.dbscheme -- /home/disna/ctf-files/rwctf2024/protected/Protected-by-Java-SE/fakedb/protected_db/db-java /home/disna/ctf-files/rwctf2024/protected/Protected-by-Java-SE/fakedb/protected_db/trap/java
+[2024-01-28 18:46:42] Clearing disk cache since the version file /home/disna/ctf-files/rwctf2024/protected/Protected-by-Java-SE/fakedb/protected_db/db-java/default/cache/version does not exist
+[2024-01-28 18:46:42] Tuple pool not found. Clearing relations with cached strings
+[2024-01-28 18:46:42] Trimming disk cache at /home/disna/ctf-files/rwctf2024/protected/Protected-by-Java-SE/fakedb/protected_db/db-java/default/cache in mode clear.
+[2024-01-28 18:46:42] Sequence stamp origin is -6224787144379444873
+[2024-01-28 18:46:42] Pausing evaluation to hard-clear memory at sequence stamp o+0
+[2024-01-28 18:46:42] Unpausing evaluation
+[2024-01-28 18:46:42] Pausing evaluation to quickly trim disk at sequence stamp o+1
+[2024-01-28 18:46:42] Unpausing evaluation
+[2024-01-28 18:46:42] Pausing evaluation to zealously trim disk at sequence stamp o+2
+[2024-01-28 18:46:42] Unpausing evaluation
+[2024-01-28 18:46:42] Trimming completed (5ms): Purged everything.
+[2024-01-28 18:46:42] Scanning for files in /home/disna/ctf-files/rwctf2024/protected/Protected-by-Java-SE/fakedb/protected_db/trap/java
+[2024-01-28 18:46:42] Found 4 TRAP files (5.30 KiB)
+[2024-01-28 18:46:42] [PROGRESS] dataset import> Importing TRAP files
+[2024-01-28 18:46:42] Importing lol.xml.trap.gz (1 of 4)
+[2024-01-28 18:46:42] Importing pom.xml.trap.gz (2 of 4)
+[2024-01-28 18:46:42] Importing pom.properties.trap.gz (3 of 4)
+[2024-01-28 18:46:42] Importing sourceLocationPrefix.trap.gz (4 of 4)
+[2024-01-28 18:46:42] [PROGRESS] dataset import> Merging relations
+[2024-01-28 18:46:42] Merging 1 fragment for 'files'.
+[2024-01-28 18:46:42] Merged 24 bytes for 'files'.
+[2024-01-28 18:46:42] Merging 1 fragment for 'folders'.
+[2024-01-28 18:46:42] Merged 88 bytes for 'folders'.
+[2024-01-28 18:46:42] Merging 1 fragment for 'containerparent'.
+[2024-01-28 18:46:42] Merged 104 bytes for 'containerparent'.
+[2024-01-28 18:46:42] Merging 1 fragment for 'locations_default'.
+[2024-01-28 18:46:42] Merged 2448 bytes (2.39 KiB) for 'locations_default'.
+[2024-01-28 18:46:42] Merging 1 fragment for 'xmllocations'.
+[2024-01-28 18:46:42] Merged 760 bytes for 'xmllocations'.
+[2024-01-28 18:46:42] Merging 1 fragment for 'xmlDTDs'.
+[2024-01-28 18:46:42] Merged 20 bytes for 'xmlDTDs'.
+[2024-01-28 18:46:42] Merging 1 fragment for 'numlines'.
+[2024-01-28 18:46:42] Merged 944 bytes for 'numlines'.
+[2024-01-28 18:46:42] Merging 1 fragment for 'xmlElements'.
+[2024-01-28 18:46:42] Merged 1020 bytes for 'xmlElements'.
+[2024-01-28 18:46:42] Merging 1 fragment for 'xmlChars'.
+[2024-01-28 18:46:42] Merged 792 bytes for 'xmlChars'.
+[2024-01-28 18:46:42] Merging 1 fragment for 'xmlEncoding'.
+[2024-01-28 18:46:42] Merged 16 bytes for 'xmlEncoding'.
+[2024-01-28 18:46:42] Merging 1 fragment for 'xmlNs'.
+[2024-01-28 18:46:42] Merged 32 bytes for 'xmlNs'.
+[2024-01-28 18:46:42] Merging 1 fragment for 'xmlHasNs'.
+[2024-01-28 18:46:42] Merged 576 bytes for 'xmlHasNs'.
+[2024-01-28 18:46:42] Merging 1 fragment for 'xmlAttrs'.
+[2024-01-28 18:46:42] Merged 24 bytes for 'xmlAttrs'.
+[2024-01-28 18:46:42] Merging 1 fragment for 'xmlComments'.
+[2024-01-28 18:46:42] Merged 80 bytes for 'xmlComments'.
+[2024-01-28 18:46:42] Merging 1 fragment for 'configs'.
+[2024-01-28 18:46:42] Merged 12 bytes for 'configs'.
+[2024-01-28 18:46:42] Merging 1 fragment for 'configLocations'.
+[2024-01-28 18:46:42] Merged 72 bytes for 'configLocations'.
+[2024-01-28 18:46:42] Merging 1 fragment for 'configNames'.
+[2024-01-28 18:46:42] Merged 36 bytes for 'configNames'.
+[2024-01-28 18:46:42] Merging 1 fragment for 'configValues'.
+[2024-01-28 18:46:42] Merged 36 bytes for 'configValues'.
+[2024-01-28 18:46:42] Merging 1 fragment for 'sourceLocationPrefix'.
+[2024-01-28 18:46:42] Merged 4 bytes for 'sourceLocationPrefix'.
+[2024-01-28 18:46:42] Saving string and id pools to disk.
+[2024-01-28 18:46:42] Finished importing TRAP files.
+[2024-01-28 18:46:42] Read 24.45 KiB of uncompressed TRAP data.
+[2024-01-28 18:46:42] Relation data size: 6.92 KiB (merge rate: 603.58 KiB/s)
+[2024-01-28 18:46:42] String pool size: 2.05 MiB
+[2024-01-28 18:46:42] ID pool size: 1.03 MiB
+[2024-01-28 18:46:42] [PROGRESS] dataset import> Finished writing database (relations: 6.92 KiB; string pool: 2.05 MiB).
+[2024-01-28 18:46:42] Pausing evaluation to close the cache at sequence stamp o+3
+[2024-01-28 18:46:42] The disk cache is freshly trimmed; leave it be.
+[2024-01-28 18:46:42] Unpausing evaluation
+[2024-01-28 18:46:42] Plumbing command codeql dataset import completed.
+[2024-01-28 18:46:42] [PROGRESS] database finalize> TRAP import complete (315ms).
+[2024-01-28 18:46:42] Running plumbing command: codeql database cleanup --mode=trim -- /home/disna/ctf-files/rwctf2024/protected/Protected-by-Java-SE/fakedb/protected_db
+[2024-01-28 18:46:42] [PROGRESS] database cleanup> Cleaning up existing TRAP files after import...
+[2024-01-28 18:46:42] [PROGRESS] database cleanup> TRAP files cleaned up (1ms).
+[2024-01-28 18:46:42] [PROGRESS] database cleanup> Cleaning up scratch directory...
+[2024-01-28 18:46:42] [PROGRESS] database cleanup> Scratch directory cleaned up (1ms).
+[2024-01-28 18:46:42] Running plumbing command: codeql dataset cleanup --mode=trim -- /home/disna/ctf-files/rwctf2024/protected/Protected-by-Java-SE/fakedb/protected_db/db-java
+[2024-01-28 18:46:42] [PROGRESS] dataset cleanup> Cleaning up dataset in /home/disna/ctf-files/rwctf2024/protected/Protected-by-Java-SE/fakedb/protected_db/db-java.
+[2024-01-28 18:46:42] Trimming disk cache at /home/disna/ctf-files/rwctf2024/protected/Protected-by-Java-SE/fakedb/protected_db/db-java/default/cache in mode trim.
+[2024-01-28 18:46:42] Sequence stamp origin is -6224787143218294881
+[2024-01-28 18:46:42] Pausing evaluation to zealously trim disk at sequence stamp o+0
+[2024-01-28 18:46:42] Unpausing evaluation
+[2024-01-28 18:46:42] Trimming completed (0ms): Trimmed disposable data from cache.
+[2024-01-28 18:46:42] Pausing evaluation to close the cache at sequence stamp o+1
+[2024-01-28 18:46:42] The disk cache is freshly trimmed; leave it be.
+[2024-01-28 18:46:42] Unpausing evaluation
+[2024-01-28 18:46:42] [PROGRESS] dataset cleanup> Trimmed disposable data from cache.
+[2024-01-28 18:46:42] [PROGRESS] dataset cleanup> Finalizing dataset in /home/disna/ctf-files/rwctf2024/protected/Protected-by-Java-SE/fakedb/protected_db/db-java
+[2024-01-28 18:46:42] [DETAILS] dataset cleanup> Finished deleting ID pool from /home/disna/ctf-files/rwctf2024/protected/Protected-by-Java-SE/fakedb/protected_db/db-java (1ms).
+[2024-01-28 18:46:42] Plumbing command codeql dataset cleanup completed.
+[2024-01-28 18:46:42] Plumbing command codeql database cleanup completed with status 0.
+[2024-01-28 18:46:42] [PROGRESS] database finalize> Finished zipping source archive (1.87 KiB).
+[2024-01-28 18:46:42] Terminating normally.
